@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>
+basic tags and table
+</title>
+</head>
+<body>
+<h1><center> my first webpage </h1>
+<p> this is my first web page which contain table, basic tags , and forms <a href ="https://www.youtube.com"> click here </a> .I'm very excited to work with my first webpage creation . i hope this will increase my confidence in learning furtherly.</p>
+<!..table..>
+<table border="6" width="10" cellpadding="1" cellspacing="3">
+<caption> student info </caption>
+<tr>
+<th> name </th>
+<th> class </th>
+<th> age </th>
+<th> pecentage </th>
+<th> cgpab</th>
+</tr>
+<tr>
+<td> indu </td>
+<td> 1oth</td>
+<td> 16 </td>
+<td> 82 </td>
+<td> 8.4 </td>
+</tr>
+<tr>
+<td> bharu</td>
+<td> 18</td>
+<td> 95 </td>
+<td> 9.2 </td>
+</tr>
+<tr>
+<td> alekhya</td>
+<td> 19</td>
+<td> 93</td>
+<td> 9.5</td>
+</tr>
+<tr>
+<tf>         </tf>
+<tf>      </tf>
+<tf>  0verall: 92%   </tf>
+<tf>    overall : 93% </tf>
+</tr>
+</table><br>
+<h1> <center> college submission form</center> </h1>
+<form action =" form.html" method="post">
+<div>
+<label>first name </label>
+<input type="text" name="first name" placeholder="enter your first name"><br>
+</div>
+<div>
+<label>last name </label>
+<input type="text" name=" last name"placeholder ="enter ur last name><br>
+</div>
+<div>
+<label>user id </label>
+<input type="text" name="id "><br>
+</div>
+<div>
+<label>password </label>
+<input type="text" name="password"><br>
+</div>
+<div>
+<label>gender </label>
+     <input type="radio buttons" name="gender" value="male"><br>
+     <input type="radio buttons" name="gender" value="female"><br>
+</div>
+<div>
+<label>hobbies </label>
+      <input type="checkbox" name="hobbies" value="drawing"><br>
+       <input type="checkbox" name="hobbies" value="singing"><br>
+        <input type="checkbox" name="hobbies" value="dancing"><br>
+</div>
+<div>
+<label> message area(optional)</label>
+<input type="textarea" name="message"><br>
+</div>
+<div>
+<select>
+<option> BRANCH</option>
+<option value="CME">CME</option>
+<option VALUE ="MECH"> MECHANICAL</option>
+<option VALUE="ECE"> ECE</option>
+</select>
+</div>
+<div>
+	<label>submit</label>
+<input type= "submit" value="submit">
+</div>
+ </form>
+</body>
+</html>
+
+
+
+
